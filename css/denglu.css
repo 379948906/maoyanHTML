@@ -1,0 +1,119 @@
+a{
+ text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 112px;
+}
+header>nav{
+     width: 917px;
+     height: 112px;
+     margin: auto;
+     display: flex;
+     align-items: center;
+ }
+.zhuti{
+    width: 917px;
+    height: 402px;
+    margin: auto;
+    display: flex;
+}
+.zhuti_z{
+    width: 545px;
+    height: 402px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhuti_y{
+    width: 373px;
+    height: 402px;
+}
+.juzhong{
+    width: 280px;
+    height:250px ;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.denglu{
+    width: 280px;
+    height: 30px;
+    /*outline: 1px solid;*/
+    display: flex;
+    align-items: center;
+}
+.denglu>a:nth-of-type(2){
+ margin-left: auto;
+}
+.denglu>a{
+color: #47464a;
+    font-size:14px;
+}
+.denglu>i{
+   width: 12px;
+    height: 15px;
+    background: url("../images/sprite_webpage.png") -14px -58px;
+    margin-left: 5px;
+}
+.shuru{
+  width: 280px;
+    height: 95px;
+    margin-top: 10px;
+    position: relative;
+}
+.shang>input{
+ width: 277px;
+    height: 36px;
+    outline: none;
+    text-indent: 30px;
+}
+.shang>img{
+    position: absolute;
+    top:13px;
+    left: 11px;
+}
+.xia>img{
+    position: absolute;
+    top:61px;
+    left: 11px;
+}
+.xia>input{
+    width: 277px;
+    height: 36px;
+    outline: none;
+    margin-top: 10px;
+    text-indent: 30px;
+}
+.zidong{
+margin-top: 10px;
+}
+.zidong>a{
+    margin-left: 60px;
+    color: red;
+    font-size: 14px;
+}
+
+.zidong>button{
+    height: 35px;
+    width: 277px;
+    margin-top: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.mianfei>a{
+    color: red;
+}
+.mianfei{
+    margin-top: 14px;
+}
+footer{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer>p{
+   color: #d6d6d6;
+    font-size: 12px;
+}

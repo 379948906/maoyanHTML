@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>猫眼电影</title>
+    <link rel="icon" href="../images/title.bmp">
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/dianying.css"/>
+</head>
+<body>
+    <!--导航-->
+    <header>
+        <nav>
+            <div class="daohang_1">
+                <a href="index.html"><img src="../images/logo_s.png" alt=""/></a>
+                <select name="citu" id="">
+                    <option value="CD">成都</option>
+                    <option value="MY">绵阳</option>
+                    <option value="YB">宜宾</option>
+                    <option value="LZ">泸州</option>
+                    <option value="DY">德阳</option>
+                </select>
+            </div>
+            <div class="daohang_2">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#">电影</a></li>
+                    <li><a href="bangdan.html">榜单</a></li>
+                    <li><a href="zixun.html">热点</a></li>
+                </ul>
+            </div>
+            <div class="daohang_3">
+                <input type="text" placeholder="找影视剧、影人、影院"/><i class="fangdajing"></i>
+                <a href="login.html"><img src="../images/yonghutouxiang.png" alt=""/></a>
+                <a href="#"><i class="xiajiantou"></i></a>
+            </div>
+        </nav>
+    </header>
+    <!--第二个导航-->
+    <div class="dierdaohang">
+        <p><a href="#">正在上映</a><i class="sanjiao"></i></p>
+        <p><a href="#">即将上映</a><i class="sanjiao"></i></p>
+        <p><a href="#">经典影片</a><i class="sanjiao"></i></p>
+    </div>
+    <!--中间内容-->
+    <div class="neirong">
+        <!--影片类型选择-->
+        <div class="yingpianleixing">
+            <!--类型-->
+            <div class="leixing">
+                <p>类型：</p>
+                <ul>
+                    <li><a href="#">全部</a></li>
+                    <li><a href="#">爱情</a></li>
+                    <li><a href="#">喜剧</a></li>
+                    <li><a href="#">动漫</a></li>
+                    <li><a href="#">剧情</a></li>
+                    <li><a href="#">恐怖</a></li>
+                    <li><a href="#">惊悚</a></li>
+                    <li><a href="#">科幻</a></li>
+                    <li><a href="#">历史</a></li>
+                    <li><a href="#">爱情</a></li>
+                    <li><a href="#">喜剧</a></li>
+                    <li><a href="#">动漫</a></li>
+                    <li><a href="#">剧情</a></li>
+                    <li><a href="#">恐怖</a></li>
+                    <li><a href="#">惊悚</a></li>
+                    <li><a href="#">科幻</a></li>
+                    <li><a href="#">历史</a></li>
+                    <li><a href="#">爱情</a></li>
+                    <li><a href="#">喜剧</a></li>
+                    <li><a href="#">动漫</a></li>
+                    <li><a href="#">剧情</a></li>
+                    <li><a href="#">恐怖</a></li>
+                    <li><a href="#">惊悚</a></li>
+                    <li><a href="#">科幻</a></li>
+                    <li><a href="#">历史</a></li>
+                    <li><a href="#">喜剧</a></li>
+                    <li><a href="#">动漫</a></li>
+                </ul>
+            </div>
+            <!--区域-->
+            <div class="quyu">
+                <p>区域：</p>
+                <ul>
+                    <li><a href="#">全部</a></li>
+                    <li><a href="#">大陆</a></li>
+                    <li><a href="#">美国</a></li>
+                    <li><a href="#">韩国</a></li>
+                    <li><a href="#">日本</a></li>
+                    <li><a href="#">中国香港</a></li>
+                    <li><a href="#">中国台湾</a></li>
+                    <li><a href="#">大陆</a></li>
+                    <li><a href="#">美国</a></li>
+                    <li><a href="#">韩国</a></li>
+                    <li><a href="#">日本</a></li>
+                    <li><a href="#">俄罗斯</a></li>
+                    <li><a href="#">西班牙</a></li>
+                    <li><a href="#">大陆</a></li>
+                    <li><a href="#">美国</a></li>
+                    <li><a href="#">韩国</a></li>
+                    <li><a href="#">日本</a></li>
+                    <li><a href="#">伊朗</a></li>
+                    <li><a href="#">其他</a></li>
+                </ul>
+            </div>
+            <!--年代-->
+            <div class="niandai">
+                <p>年代：</p>
+                <ul>
+                    <li><a href="#">全部</a></li>
+                    <li><a href="#">2017以后</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2000-2010</a></li>
+                    <li><a href="#">90年代</a></li>
+                    <li><a href="#">80年代</a></li>
+                    <li><a href="#">70年代</a></li>
+                    <li><a href="#">更早</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--选框-->
+        <div class="xuankuang">
+            <div>
+                <span>
+                    <input type="radio" name="kongxinyuan" id="remen"/>
+                    <label for="remen" class="yuan_1">按热门偏序</label>
+                </span>
+                <span>
+                    <input type="radio" name="kongxinyuan" id="shijian"/>
+                    <label for="shijian" class="yuan_2">按时间排序</label>
+                </span>
+                <span>
+                    <input type="radio" name="kongxinyuan" id="pingjia"/>
+                    <label for="pingjia" class="yuan_3">按评价排序</label>
+                </span>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="bofang"/>
+                <label for="bofang" class="gou">可播放</label>
+            </div>
+        </div>
+        <!--电影栏-->
+        <div class="dianyinglan">
+            <div>
+                <a href="#"><img src="../images/heizidelanqiu.jpg" alt=""/></a>
+                <p><a href="#">黑子的篮球</a></p>
+                <p>9.<span>9</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/daojianshenyu.jpg" alt=""/></a>
+                <p><a href="#">刀剑神域</a></p>
+                <p>9.<span>0</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/jianguodaye.jpg" alt=""/></a>
+                <p><a href="#">建国大业</a></p>
+                <p>8.<span>6</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/shengzhixing.jpg" alt=""/></a>
+                <p><a href="#">声之形</a></p>
+                <p>5.<span>6</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/aoteman.png" alt=""/></a>
+                <p><a href="#">奥特曼</a></p>
+                <p>9.<span>1</span></p>
+                <img class="xiaoguo"  src="../images/3d.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/wangpaibaobiao.jpg" alt=""/></a>
+                <p><a href="#">王牌保镖</a></p>
+                <p>9.<span>0</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+        </div>
+        <div class="dianyinglan">
+            <div>
+                <a href="#"><img src="../images/heizidelanqiu.jpg" alt=""/></a>
+                <p><a href="#">黑子的篮球</a></p>
+                <p>9.<span>9</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/daojianshenyu.jpg" alt=""/></a>
+                <p><a href="#">刀剑神域</a></p>
+                <p>9.<span>0</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/jianguodaye.jpg" alt=""/></a>
+                <p><a href="#">建国大业</a></p>
+                <p>8.<span>6</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/shengzhixing.jpg" alt=""/></a>
+                <p><a href="#">声之形</a></p>
+                <p>5.<span>6</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/aoteman.png" alt=""/></a>
+                <p><a href="#">奥特曼</a></p>
+                <p>9.<span>1</span></p>
+                <img class="xiaoguo"  src="../images/3d.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/wangpaibaobiao.jpg" alt=""/></a>
+                <p><a href="#">王牌保镖</a></p>
+                <p>9.<span>0</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+        </div>
+        <div class="dianyinglan">
+            <div>
+                <a href="#"><img src="../images/heizidelanqiu.jpg" alt=""/></a>
+                <p><a href="#">黑子的篮球</a></p>
+                <p>9.<span>9</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/daojianshenyu.jpg" alt=""/></a>
+                <p><a href="#">刀剑神域</a></p>
+                <p>9.<span>0</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/jianguodaye.jpg" alt=""/></a>
+                <p><a href="#">建国大业</a></p>
+                <p>8.<span>6</span></p>
+                <img class="xiaoguo"  src="../images/3d.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/shengzhixing.jpg" alt=""/></a>
+                <p><a href="#">声之形</a></p>
+                <p>5.<span>6</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/aoteman.png" alt=""/></a>
+                <p><a href="#">奥特曼</a></p>
+                <p>9.<span>1</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/wangpaibaobiao.jpg" alt=""/></a>
+                <p><a href="#">王牌保镖</a></p>
+                <p>9.<span>0</span></p>
+            </div>
+        </div>
+        <div class="dianyinglan">
+            <div>
+                <a href="#"><img src="../images/heizidelanqiu.jpg" alt=""/></a>
+                <p><a href="#">黑子的篮球</a></p>
+                <p>9.<span>9</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/daojianshenyu.jpg" alt=""/></a>
+                <p><a href="#">刀剑神域</a></p>
+                <p>9.<span>0</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/jianguodaye.jpg" alt=""/></a>
+                <p><a href="#">建国大业</a></p>
+                <p>8.<span>6</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/shengzhixing.jpg" alt=""/></a>
+                <p><a href="#">声之形</a></p>
+                <p>5.<span>6</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/aoteman.png" alt=""/></a>
+                <p><a href="#">奥特曼</a></p>
+                <p>9.<span>1</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/wangpaibaobiao.jpg" alt=""/></a>
+                <p><a href="#">王牌保镖</a></p>
+                <p>9.<span>0</span></p>
+                <img class="xiaoguo"  src="../images/3d.png" alt=""/>
+            </div>
+        </div>
+        <div class="dianyinglan">
+            <div>
+                <a href="#"><img src="../images/heizidelanqiu.jpg" alt=""/></a>
+                <p><a href="#">黑子的篮球</a></p>
+                <p>9.<span>9</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/daojianshenyu.jpg" alt=""/></a>
+                <p><a href="#">刀剑神域</a></p>
+                <p>9.<span>0</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/jianguodaye.jpg" alt=""/></a>
+                <p><a href="#">建国大业</a></p>
+                <p>8.<span>6</span></p>
+            </div>
+            <div>
+                <a href="#"><img src="../images/shengzhixing.jpg" alt=""/></a>
+                <p><a href="#">声之形</a></p>
+                <p>5.<span>6</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/aoteman.png" alt=""/></a>
+                <p><a href="#">奥特曼</a></p>
+                <p>9.<span>1</span></p>
+                <img class="xiaoguo"  src="../images/3d.png" alt=""/>
+            </div>
+            <div>
+                <a href="#"><img src="../images/wangpaibaobiao.jpg" alt=""/></a>
+                <p><a href="#">王牌保镖</a></p>
+                <p>9.<span>0</span></p>
+                <img class="xiaoguo"  src="../images/3dmax.png" alt=""/>
+            </div>
+        </div>
+        <!--翻页栏-->
+        <div class="fanyelan">
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">23802</a></li>
+                <li><a href="#">下一页</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--尾部-->
+    <footer>
+        <p> &copy; 猫眼电影 maoyan.com 京ICP证160733号 京ICP备16022489-1京公网安备 11010502030881号 网络文化经营许可证 电子公告服务规则</p>
+        <p>北京猫眼文化传媒有限公司</p>
+    </footer>
+    <div class="mao">
+        <img src="../images/cat.png" alt="ding"/>
+    </div>
+</body>
+</html>

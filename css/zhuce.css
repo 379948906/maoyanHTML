@@ -1,0 +1,89 @@
+header{
+    width: 100%;
+    border-bottom: 2px solid red;
+    height: 60px;
+}
+header>nav{
+    width: 600px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zhuti{
+    width: 490px;
+    height: 387px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.zhuti>.yiti>div:first-child>div:nth-child(2)>span{
+    font-size: 12px;
+}
+.zhuti>.yiti>div{
+    width: 490px;
+    height: 38px;
+    margin: 14px 0;
+    display: flex;
+}
+.zhuti>.yiti>div:nth-child(2){
+    width: 490px;
+    height: 30px;
+
+}
+.zhuti>.yiti>div>.zuo{
+    width: 85px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+}
+.zhuti>.yiti>div>.you{
+    width: 405px;
+    height: 38px;
+}
+.zhuti>.yiti>div>.you>input{
+    width: 260px;
+    height: 34px;
+    outline: none;
+}
+.zhuti>.yiti>div:nth-child(2)>.you>input{
+    width: 136px;
+    height: 20px;
+    margin-top: 5px;
+}
+.zhuti>.yiti>div:nth-child(5)>.you{
+    display: flex;
+}
+body>.zhuti>.yiti>div:nth-child(5)>.you>i{
+    display: block;
+    width: 83px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 2px;
+    background-color: #9ab2d7;
+    color: white;
+}
+
+.zhuti>.yiti>div:nth-child(7)>.you>input{
+width: 180px;
+    height: 35px;
+    background-color: red;
+    border: none;
+}
+.zhuti>.yiti>div:nth-child(8)>.you>a{
+    color: red;
+    font-size: 12px;
+    text-decoration: none;
+}
+/*Ïß*/
+footer>.xian{
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    margin-top: 40px;
+}
+footer>.jiaozhu{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #c0c0c0;
+}
